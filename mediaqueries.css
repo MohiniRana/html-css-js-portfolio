@@ -9,6 +9,17 @@
     
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    /* Adjustments for MacBook screens */
+    /* Example styles */
+    .section-container {
+        justify-content: space-evenly; /* Adjust spacing between items */
+    }
+
+}
+
+
+
 @media screen  and (max-width: 1200px){
     #desktop-nav {
         display: none;
@@ -28,6 +39,7 @@
     }
     section, .section-container {
         height: fit-content;
+        justify-content: space-evenly;
     }
     section {
         margin: 0 5%;

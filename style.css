@@ -307,7 +307,7 @@ section {
 .arrow {
     position: absolute;
     left: 50%;
-    bottom: 2.5rem;
+    bottom: 1rem;
     transform: translateX(-50%);
 }
 
@@ -320,28 +320,23 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
-}
+    justify-content: center;
+    margin-right: 29px; /* Adjust margin as needed */
+    }
+
 
 .section-container {
-    gap: 4rem;
+    gap: 6rem;
     height: 80%;
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .section__pic-container {
-    height: 400px;
-    width: 400px;
-    margin-right: auto 0;
+    width: 40%;
 }
 
 .about-details-container {
-    flex: 0 0 55%; /* Set width of details container to 55% */
-}
-
-.details-container {
-    width: 100%; /* Ensure each details container takes full width */
-    margin-right: 40px;
+    flex: 1; /* Set width of details container to 55% */
 }
 
 .text-container {
